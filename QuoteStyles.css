@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#main h1{
+    margin: 0;
+    padding-top: 50px;
+    font-size: 100px;
+    letter-spacing: 5px;
+}
+#main{
+    padding-top: 55px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    background-color: lightslategray;
+    min-height: 800px;
+    height: auto;
+    width: 100%;
+    background: url(quoteback.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 1000px;
+}
+
+@media only screen and (max-width: 700px) {
+
+   
+    #main h1 { font-size: 50px; }
+    #author { font-size: 20px; }
+    #quote { font-size: 20px; }
+    #quotes { width: 85%; }
+}
+
+.quotes{
+    border: solid;
+    border-color: white;
+     height: 250px;
+    width: 50%;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.quote{
+    font-size: 30px;
+}
+
+.author{
+    font-size: 30px;
+}
+
+#btn{
+    color: firebrick;
+}
+
+#leftquote{
+    color: firebrick;
+}
+
+#rightquote{
+    color: firebrick;
+}
